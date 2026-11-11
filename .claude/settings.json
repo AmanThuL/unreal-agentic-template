@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Scripts/editor.sh:*)",
+      "Bash(Scripts/build-editor.sh:*)",
+      "Bash(Scripts/run-tests.sh:*)",
+      "Bash(Scripts/check-docs.sh:*)",
+      "Bash(Scripts/package.sh:*)",
+      "Bash(Scripts/run-agent.sh:*)"
+    ]
+  }
+}

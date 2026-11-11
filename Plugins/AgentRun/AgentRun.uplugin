@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Agent Run",
+	"Description": "Scripted runs of the game for AI agents and CI: virtual input that never takes the real mouse, keyboard or focus, plus frame benches and screenshots.",
+	"Category": "Testing",
+	"CanContainContent": false,
+	"Modules": [
+		{
+			"Name": "AgentRun",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

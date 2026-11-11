@@ -1,0 +1,11 @@
+# Proves the agent-run path end to end in the packaged game: the script runner, virtual input
+# reaching a Slate button, a screenshot and a bench. Run it after engine upgrades and after any
+# change to the AgentRun plugin:
+#   Scripts/package.sh && Scripts/run-agent.sh Scripts/agent-runs/smoke.txt
+log smoke start
+wait 2
+selftest
+shot smoke
+bench 3 entry
+wait 1
+quit
